@@ -1,0 +1,102 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Fredoka', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+    list-style: none;
+    text-decoration: none;
+}
+
+
+
+.navigation{
+    width: 100%;
+    background-color: #a8462d;
+    overflow: auto;
+    margin-bottom: 20px;
+}
+
+.navigation a{
+    float: left;
+    text-align: center;
+    width: 25%;
+    padding: 8px 0px;
+    transition: all 0.3s ease;
+    color: white;
+    font-size: 36px;
+}
+
+.navigation a:hover {
+    background-color: #ddd;
+    color: black;
+}
+
+
+.navigation a.active {
+    background-color: #04AA6D;
+    color: white;
+}
+
+.centertext {
+    margin-bottom: 20px;
+}
+
+.centertext h2{
+    text-align: center;
+    color: #111;
+    text-transform: capitalize;
+    font-size: 28px;
+}
+
+.centertext span{
+    color:cornflowerblue;
+}
+
+.products{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(260px, auto));
+    gap: 2rem;
+    margin-left: 15px;
+    margin-right: 15px;
+}
+
+.row {
+    position: relative;
+    transition: all .40s;
+}
+
+.row img{
+    width: 100%;
+    height: auto;
+    transition: all .40s;
+}
+
+.row img:hover{
+    scale: 0.9;
+}
+
+.product-text h5{
+    position: absolute;
+    top: 13px;
+    left: 13px;
+    color: #fff;
+    background-color: #27b737;
+    font-size: 12px;
+    font-weight: 500;
+    padding: 3px 10px;
+    border-radius: 4px;
+}
+
+.price h4{
+    color: #111;
+    font-size: 16px;
+    text-transform: capitalize;
+    font-weight: 400;
+}
+
+.price p {
+    color: #151515;
+    font-size: 14px;
+    font-weight: 600;
+}
